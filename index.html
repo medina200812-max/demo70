@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(255, 249, 242);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        min-height: 100vh;
+      }
+      .container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 500px;
+        border-radius: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        line-height: 20px;
+      }
+      .img {
+        width: 540px;
+        border-radius: 12px 12px 0px 0px;
+        margin-top: -20px;
+        margin-left: -20px;
+      }
+      .paragraph {
+        font-size: 13px;
+        margin-top: -5px;
+        color: rgba(0, 0, 0, 0.546);
+      }
+      ul {
+        margin-top: -5px;
+        font-size: 13px;
+      }
+      ol {
+        margin-top: -5px;
+        font-size: 13px;
+      }
+      th {
+        background-color: rgba(254, 228, 255, 0.516);
+      }
+      table {
+        border-collapse: collapse;
+        font-size: 13px;
+        width: 500px;
+      }
+      .table tr {
+        border-bottom: 1px solid rgba(154, 154, 154, 0.167);
+        align-items: start;
+      }
+      .table th {
+        display: flex;
+        align-items: start;
+        padding: 8px;
+      }
+      .table td {
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      .quote {
+        background-color: rgba(241, 190, 248, 0.239);
+        border-left: 3px solid rgb(139, 0, 170);
+        font-size: 13px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="img" src="kyoto.png.avif" />
+      <h1>Kyoto Travel Guide</h1>
+      <p class="paragraph">
+        Discover the cultural heart of Japan. Kyoto is famous for its ancient
+        temples, tranquil gardens, and rich traditions. Whether you're drawn by
+        cherry blossoms, tea ceremonies, or historic districts, Kyoto promises
+        an unforgettable journey.
+      </p>
+      <p class="quote">
+        <strong> Best time to visit:</strong> Spring (March-May) and Autumn
+        (October-November)
+      </p>
+      <h2>Top Attractions</h2>
+      <ul>
+        <li>
+          <strong>Kinkaku-ji:</strong> The Golden Pavilion shimmering over a
+          pond.
+        </li>
+        <li>
+          <strong>Fushimi Inari Shrine:</strong> Iconic thousands of red torii
+          gates.
+        </li>
+        <li>
+          <strong>Arashiyama Bamboo Grove:</strong> Stroll through towering
+          bamboo
+        </li>
+        <li>
+          <strong>Gion District: </strong>Traditional streets and geisha
+          culture.
+        </li>
+      </ul>
+      <h2>Local Tips</h2>
+      <ol>
+        <li>Rent a bicycle to explore hidden alleys and temples.</li>
+        <li>Try a traditional kaiseki meal for an authentic taste of Kyoto.</li>
+        <li>Respect local customs when visiting shrines and temples.</li>
+      </ol>
+      <h2>Quick Info</h2>
+      <table class="table">
+        <tbody>
+          <tr>
+            <th>Language</th>
+            <td>Japanese</td>
+          </tr>
+          <tr>
+            <th>Currency</th>
+            <td>Japanese Yen</td>
+          </tr>
+          <tr>
+            <th>Transport</th>
+            <td>Buses, Train, Bicycles</td>
+          </tr>
+          <tr>
+            <th>Famous Food</th>
+            <td>Matcha sweets, Kaiseki, Yudofu</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
